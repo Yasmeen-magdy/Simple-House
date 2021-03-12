@@ -1,0 +1,84 @@
+.background{
+    background-image: url(img/simple-house-01.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+    /* from view height */
+}
+.navbar-toggler{
+    border-radius: 20px 5px white;
+background-color: white;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .margin-nav{
+        padding-top: 350px ;
+    }
+    }
+    
+@media only screen and (min-width: 1024px) {
+
+.margin-nav{
+    padding-top: 450px ;
+}
+}
+@media only screen and (min-width: 1440px) {
+
+    .margin-nav{
+        padding-top: 520px ;
+    }
+    }
+.hover-nav:hover{
+    border-bottom: white solid thin;
+}
+.btn1{border-radius: unset !important;}
+
+.card-text-font{
+font-size:14px;
+}
+.card-text-dollar{
+    font-size: 20px;
+}
+.card{
+    border: none;
+}
+.text-blue{color: darkblue;
+font-weight: normal;
+}
+.text-purple{
+    color: darkorchid;
+    font-size: 15px;
+}
+.text-decoration-underline{
+    text-decoration: underline;
+}
+
+
+/* about page */
+.about{
+    font-size: 15px;
+}
+.font-14px{
+    font-size: 14px;
+}
+.bk-about{
+    background-image: url(img/about-05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 33vh;
+
+}
+
+.form-control{
+    border: none !important;
+    border-radius: unset !important;
+    border-bottom: solid thin !important;
+    color: rgb(179, 176, 176) !important;
+}
+.margin-left-btn{
+    margin-left: 170px;
+}
+
+
